@@ -1,0 +1,103 @@
+/**
+ * @file style.css
+ * @author 0xChristopher
+ * @brief This file contains the css for the Meme Generator.
+ */
+
+* 
+{
+    box-sizing: border-box;
+}
+
+html, body 
+{
+    margin: 0;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+
+/**
+ * Header
+ */
+.header 
+{
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, 
+        rgba(118,9,121,1) 35%, 
+        rgba(255,0,65,1) 100%);
+    display: flex;
+    align-items: center;
+    height: 5.625rem;
+    padding: 1.25rem, 2.1875rem;
+    box-shadow: 0rem 0.1875rem 0.46875rem rgba(0, 0, 0, 0.2);
+}
+
+.header--logo
+{
+    height: 100%;
+    padding: 1.25rem;
+}
+
+/**
+ * Main
+ */
+.form
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.form--inputs 
+{
+    display: flex;
+    align-items: center;
+    padding: 1.25rem;
+}
+
+.form--inputs--top, .form--inputs--bottom
+{
+    margin-left: 0.3125rem;
+    margin-right: 0.3125rem;
+    padding: 0.625rem;
+    min-width: 25rem;
+    border-style: 0.0625rem solid;
+}
+
+.form--button--meme-button
+{
+    padding: 0.625rem;
+    min-width: 12.5rem;
+    color: white;
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, 
+        rgba(118,9,121,1) 35%, 
+        rgba(255,0,65,1) 100%);
+    border-radius: 0.3125rem;
+    border: none;
+    cursor: pointer;
+}
+
+.form--button--meme-button:active
+{
+    padding: 0.625rem;
+    min-width: 12.5rem;
+    color: white;
+    background: linear-gradient(90deg, rgba(6,0,103,1) 0%, 
+        rgba(159,13,163,1) 35%, 
+        rgba(255,73,119,1) 100%);
+}
+
+.meme
+{
+    padding: 0.625rem;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.meme--custom
+{
+    padding: 0.625rem;
+    display: block;
+    max-width: 31.25rem;
+}
